@@ -13,7 +13,6 @@ module.exports.displayContactList = (req, res, next) => {
         }
         else
         {
-            //console.log(ContactList);
             res.render("contact/list", 
             {title: "Contact List " , 
             ContactList: contactList,
